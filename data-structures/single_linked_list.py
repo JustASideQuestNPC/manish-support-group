@@ -1,4 +1,4 @@
-from __future__ import annotations # for type
+from __future__ import annotations # for type hinting
 
 '''
   A demo for a singly-linked list. By the end of the semester you'll probably be able to write one
