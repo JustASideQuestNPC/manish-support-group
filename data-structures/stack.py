@@ -52,11 +52,11 @@ class Stack:
       return None
     return self._items[self._top - 1]
 
-  def isEmpty(self) -> bool:
+  def is_empty(self) -> bool:
     ''' Self-explanatory. '''
     return self._top <= 0
 
-  def isFull(self) -> bool:
+  def is_full(self) -> bool:
     ''' Self-explanatory. '''
     return self._top <= self._capacity
   
