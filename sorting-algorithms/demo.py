@@ -6,9 +6,11 @@
 TEST_LIST_SIZE = 5000
 
 from selection_sort import selection_sort
+from bubble_sort import bubble_sort
 
 SORT_FUNCTIONS = (
   ('Selection Sort', selection_sort),
+  ('Bubble Sort', bubble_sort)
 )
 
 from random import gauss, shuffle

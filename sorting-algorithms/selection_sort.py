@@ -5,7 +5,7 @@
 '''
 
 def selection_sort(array: list[any]) -> list[any]:
-  # selection sort shuffles in place by default
+  # selection sort sorts in place
   array = array[:]
 
   n = len(array)
