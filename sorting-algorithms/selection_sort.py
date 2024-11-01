@@ -1,14 +1,12 @@
 '''
   A basic selection sort implementation.
 
-  Do not run this file directly! Use demo.py instead.
+  Do not run this file directly! Use _demo.py instead.
 '''
 
-def selection_sort(array: list[any]) -> list[any]:
-  # selection sort sorts in place
-  array = array[:]
-
+def selection_sort(array: list[any]) -> None:
   n = len(array)
+  
   for i in range(n - 1):
     # assume the current position holds the minimum unsorted element
     min_index = i
@@ -28,4 +26,6 @@ def selection_sort(array: list[any]) -> list[any]:
 # from random import shuffle
 # demo_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # shuffle(demo_list)
-# print(selection_sort(demo_list))
+# print(demo_list)
+# selection_sort(demo_list)
+# print(demo_list)

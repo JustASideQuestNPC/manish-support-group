@@ -1,12 +1,10 @@
 '''
   A basic bubble sort implementation.
 
-  Do not run this file directly! Use demo.py instead.
+  Do not run this file directly! Use _demo.py instead.
 '''
 
-def bubble_sort(array: list[any]) -> list[any]:
-  # bubble sort sorts in place
-  array = array[:]
+def bubble_sort(array: list[any]) -> None:
   length = len(array)
 
   # walk down the array and sort every element
@@ -25,10 +23,11 @@ def bubble_sort(array: list[any]) -> list[any]:
     if not swapped:
       break
 
-  return array
 
 # for debugging
 # from random import shuffle
 # demo_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 # shuffle(demo_list)
-# print(bubble_sort(demo_list))
+# print(demo_list)
+# bubble_sort(demo_list)
+# print(demo_list)
